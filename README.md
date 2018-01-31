@@ -1,4 +1,6 @@
 # PracticeGitCommand
+#To check Git Version
+$git --version
 
 #To Copy same repository in local system
 $git clone RepositoryURL
@@ -29,3 +31,10 @@ Once you have written all that you need, you need to go back to the normal mode,
 enter image description here
 
 and press Enter.
+
+#To configure User Name and Email
+$git config --global user.name "USER_NAME"
+$git config --global user.email "USER_EMAIL"
+
+#To view the configuration status
+$git config --list
