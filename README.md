@@ -20,3 +20,12 @@ $git Pull
 
 #To view all git command
 $git
+
+Use the git commit command without any flags. Just git commit. Then Vim editor will open
+
+To start typing press the Insert key on your keyboard and now you can create a better commit with description how do you want. For example
+Once you have written all that you need, you need to go back to the normal mode, for that press key Esc. Now close the Vim editor with save changes by typing on the keyboard :wq (w - write, q - quit)
+
+enter image description here
+
+and press Enter.
