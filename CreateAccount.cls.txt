@@ -1,0 +1,17 @@
+public with sharing class CreateAccount{
+   public account acctDetail{get;set;}
+   public contact contDetail{get;set;}
+   //Constructor 
+   public CreateAccount(){
+    acctDetail = new Account();
+	contDetail = new Contact();
+   }
+   
+   public PageReference saveAcct(){
+      try{
+		insert acctDetail;
+	  }catch(Exception ex){}
+	  return null;
+   }
+   
+}
