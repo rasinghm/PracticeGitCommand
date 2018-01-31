@@ -36,5 +36,8 @@ and press Enter.
 $git config --global user.name "USER_NAME"
 $git config --global user.email "USER_EMAIL"
 
+$ git --help
+
+
 #To view the configuration status
 $git config --list
